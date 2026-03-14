@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact NEXData — Let's Talk About Better Data</title>
+<meta name="description" content="Get in touch with NEXData. Have questions about permit data intelligence, spatial mapping, or the LUME platform? We'd love to hear from you.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-text"><span class="nex">NEX</span><span class="data">Data</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="contact.html" class="nav-cta">Get Started</a>
+    </div>
+    <div class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('show')">&#9776;</div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1>Let's <span class="accent">Talk</span></h1>
+    <p class="hero-subtitle">
+      Have a question? Ready to see what better data can do for your business? We'd love to hear from you.
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- LEFT SIDE: FORM -->
+      <div>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <!-- Note: Replace YOUR_FORM_ID with your actual Formspree form ID.
+               Alternatively, you can use Netlify Forms by setting netlify attribute on the form. -->
+
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company">
+          </div>
+
+          <div class="form-group">
+            <label for="interested">What are you interested in?</label>
+            <select id="interested" name="interested" required>
+              <option value="">Select an option</option>
+              <option value="Permit Data Intelligence">Permit Data Intelligence</option>
+              <option value="LUME Platform">LUME Platform</option>
+              <option value="Spatial Intelligence & Mapping">Spatial Intelligence & Mapping</option>
+              <option value="AI Automation">AI Automation</option>
+              <option value="Data Consulting">Data Consulting</option>
+              <option value="General Inquiry">General Inquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+
+      <!-- RIGHT SIDE: CONTACT INFO -->
+      <div class="contact-info">
+        <div class="contact-info-item">
+          <div class="ci-icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:donald@nex-data.com">donald@nex-data.com</a>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="ci-icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <a href="tel:9407818050">(940) 781-8050</a>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="ci-icon">📍</div>
+          <div>
+            <h4>Location</h4>
+            <p>Indian Lake Estates, Florida</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="ci-icon">🌐</div>
+          <div>
+            <h4>Website</h4>
+            <a href="https://nex-data.com">nex-data.com</a>
+          </div>
+        </div>
+
+        <div class="contact-info-item" style="margin-top: 32px; padding-top: 24px; border-top: 1px solid #e2e8f0;">
+          <div style="font-size: 0.9rem; color: var(--text-body);">
+            <strong>Response time:</strong> We typically respond within 24 hours.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo-text"><span class="nex">NEX</span><span class="data">Data</span></div>
+        <p>Building Insight. Powered by AI. We bridge the gap from questions to solutions with intelligent data automation and spatial expertise.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Permit Intelligence</a></li>
+          <li><a href="services.html">Spatial Intelligence</a></li>
+          <li><a href="services.html#lume">LUME Platform</a></li>
+          <li><a href="services.html">AI Automation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 NEXData. All rights reserved.</span>
+      <span>Indian Lake Estates, Florida</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
